@@ -1,0 +1,40 @@
+* {
+box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+span {
+  margin-right: 7px;
+}
+
+li {
+  list-style-type:none;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  margin: 3px;
+  padding: 1px 3px;
+  min-width: 20px;
+}
+
+.filter-wrapper {
+ display: flex;
+ justify-content: center;
+}
+
+.filter-lable {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-right: 10px;
+}
